@@ -42,7 +42,7 @@ if st.button("Categorize & Analyze", type="primary"):
                 )
 
                 response = client.chat.completions.create(
-                    model="llama-3.1-8b-instant",
+                    model="llama-3.3-70b-versatile",
                     temperature=0.0,
                     messages=[
                         {"role": "system", "content": system_prompt},
